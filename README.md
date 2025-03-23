@@ -3,6 +3,7 @@
 
 This repository contains code for a machine learning project focused on detecting fake news. The project utilizes Python and various libraries such as Pandas, NumPy, Matplotlib, NLTK, and Scikit-learn.
 
+Implemented a Natural Language Processing(NLP) based fake news detection system using NLTK and Scikit-learn, achieving an 88% accuracy and F1 score. Conducted comprehensive data cleaning and text preprocessing, including the removal of stop words, to enhance model performance. Utilized advanced NLP techniques such as TF-IDF for feature engineering, improving the model's ability to discern between fake and real news. 
 
 ## Overview
 
@@ -45,11 +46,3 @@ The dataset used in this project contains a collection of news articles labeled 
 5. **Model Evaluation:** Evaluating the trained model's performance using accuracy metrics on the testing set.
 6. **Deployment:** After successful evaluation, the model can be deployed to predict fake news on new data.
 
-
-
-## Repository Structure
-
-- `data/`: Contains the dataset used in the project.
-- `notebooks/`: Jupyter notebooks containing code for data preprocessing, model training, and evaluation.
-- `scripts/`: Python scripts for various functions and utilities used in the project.
-- `README.md`: This file, providing an overview of the project.
